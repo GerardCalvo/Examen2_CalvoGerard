@@ -1,0 +1,47 @@
+*{
+    background-color: white;
+    color: black;
+}
+
+
+.header{
+    display: flex;
+}
+
+.divLogo{
+    display: flex;
+}
+
+.divLinks{
+    display: flex;
+    margin-left: auto;
+    padding: 40px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.titolFotos{
+    text-align: center;
+}
+
+.galeriaFotos{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.img{
+    width: 500px;
+    height: auto;
+    padding: 10px;
+}
+
+.imgAlt{
+    text-align: center;
+    color: black;
+}
